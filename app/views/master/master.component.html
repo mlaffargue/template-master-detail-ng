@@ -1,0 +1,12 @@
+    <StackLayout>
+        <ActionBar title="Master view" icon="" >
+        </ActionBar>
+        <ListView [items]="items" (itemTap)="onItemTap($event)">
+            <template let-item="item" let-odd="odd" let-even="even">
+              <DockLayout stretchLastChild="true">
+                <Image src="~/icon.png" dock="left"></Image>
+                <Label text='Item : {{ item.name }}' textWrap="true" dock="left"></Label>
+              </DockLayout>
+            </template>
+        </ListView>
+    </StackLayout>

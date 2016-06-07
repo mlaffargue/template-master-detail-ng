@@ -1,0 +1,45 @@
+{
+	"nativescript": {
+		"id": "fr.laffargue.nativescript.template.masterdetail"
+	},
+	"name": "tns-template-master-detail-ng",
+	"main": "main.js",
+	"version": "1.0.0",
+	"author": "Michael Laffargue <michael.laffargue@gmail.com>",
+	"description": "Nativescript Angular Master Detail template",
+	"license": "MIT",
+	"keywords": [
+		"laffargue",
+		"telerik",
+		"mobile",
+		"angular",
+		"nativescript",
+		"{N}",
+		"tns",
+		"appbuilder",
+		"template",
+		"master-detail"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mlaffargue/template-master-detail-ng"
+	},
+	"homepage": "https://github.com/mlaffargue/template-master-detail-ng",
+	"android": {
+		"v8Flags": "--expose_gc"
+	},
+	"dependencies": {
+		"@angular/common": "2.0.0-rc.1",
+		"@angular/compiler": "2.0.0-rc.1",
+		"@angular/core": "2.0.0-rc.1",
+		"@angular/router-deprecated": "2.0.0-rc.1",
+		"@angular/platform-browser": "2.0.0-rc.1",
+		"@angular/platform-browser-dynamic": "2.0.0-rc.1",
+		"@angular/platform-server": "2.0.0-rc.1",
+		"nativescript-angular": "0.1.1",
+		"tns-core-modules": "^2.0.0"
+	},
+	"devDependencies": {
+		"nativescript-dev-typescript": "^0.3.2"
+	}
+}
