@@ -9,3 +9,6 @@ On tap on an item you'll be brought to a detailed view of the component.
 
 ## Launch the project on android
 ```tns livesync android```
+
+## Launch the project on iOS
+```tns livesync ios```
